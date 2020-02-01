@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class movingGranny : MonoBehaviour {
 
@@ -38,4 +39,12 @@ public class movingGranny : MonoBehaviour {
             transform.position = Vector3.MoveTowards(transform.position, pointB.position, speed * Time.deltaTime);
         }
 	}
+
+    void OnTriggerEnter2D(Collider2D other)
+        {
+            if(other.gameObject.CompareTag("Player"))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            }
+        }
 }

@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/scenes/menu.unity
+- path: Assets/Scenes/TeroScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
