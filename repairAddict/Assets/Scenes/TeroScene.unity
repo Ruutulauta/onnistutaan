@@ -150,6 +150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3cd5844796a993429eaa769d5288b40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: aikaloppu
   countdownText: {fileID: 0}
 --- !u!4 &114742011
 Transform:
@@ -2164,6 +2165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3cd5844796a993429eaa769d5288b40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: aikaloppu
   countdownText: {fileID: 381295773}
 --- !u!1 &869457081
 GameObject:

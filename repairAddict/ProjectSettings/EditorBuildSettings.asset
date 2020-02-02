@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/loppu.unity
     guid: 3621fa32f3ef52c4b98389af32ef9a93
+  - enabled: 1
+    path: Assets/Scenes/aikaloppu.unity
+    guid: 47e2a7b76d5944348bdf591dacfbf2b6
+  - enabled: 1
+    path: Assets/Scenes/superaikaloppu.unity
+    guid: 8136a73330cbf1043885af0e6f17cfae
   m_configObjects: {}

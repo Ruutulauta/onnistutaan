@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class timer : MonoBehaviour
 {
+    public string sceneName;
     float currentTime = 0f;
     float startingTime = 30f;
 
@@ -26,7 +28,7 @@ public class timer : MonoBehaviour
         if(currentTime <= 0)
         {
             currentTime = 0;
-            // keskeyttää pelin ja game over teksti
+            SceneManager.LoadScene(sceneName);
         }
     }
 }

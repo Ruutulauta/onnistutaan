@@ -254,6 +254,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c27049dd7962a2440862ecff1054427a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  retryScene: TeroScene
+  toMainScene: menu
 --- !u!1 &658014570
 GameObject:
   m_ObjectHideFlags: 0

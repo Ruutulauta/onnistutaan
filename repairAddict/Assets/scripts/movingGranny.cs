@@ -8,7 +8,7 @@ public class movingGranny : MonoBehaviour {
     public Transform pointA;
     public Transform pointB;
     
-    float maxSpeed = 2;
+    float maxSpeed = 1;
 
     bool moveToTarget = false;
 
