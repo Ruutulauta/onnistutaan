@@ -14,4 +14,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/over.unity
     guid: 5ebfe629095ac57468dc39c76c361b69
+  - enabled: 1
+    path: Assets/Scenes/mummoRuutu.unity
+    guid: d91a5111724bc4943860ca3b97f28188
+  - enabled: 1
+    path: Assets/Scenes/SuperGrannyScene.unity
+    guid: 51feb52f395b7034e9a8dbd4a692e6b5
+  - enabled: 1
+    path: Assets/Scenes/supermummoruutu.unity
+    guid: 662c7b775d8dc7e42a0ce4b78c093cf2
+  - enabled: 1
+    path: Assets/Scenes/loppu.unity
+    guid: 3621fa32f3ef52c4b98389af32ef9a93
   m_configObjects: {}

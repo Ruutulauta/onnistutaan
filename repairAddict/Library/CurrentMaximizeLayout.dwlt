@@ -21,10 +21,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 677, y: 471}
-  m_MaxSize: {x: 14000, y: 14021}
+  m_MinSize: {x: 677, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 5216
+  controlID: 35048
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -57,7 +57,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 707, y: 399}
+  m_TargetSize: {x: 1920, y: 1080}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -65,16 +65,16 @@ MonoBehaviour:
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 09000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -282.80002
-    m_HBaseRangeMax: 282.80002
-    m_VBaseRangeMin: -159.6
-    m_VBaseRangeMax: 159.6
+    m_HBaseRangeMin: -768
+    m_HBaseRangeMax: 768
+    m_VBaseRangeMin: -432
+    m_VBaseRangeMax: 432
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -94,7 +94,7 @@ MonoBehaviour:
       y: 21
       width: 707
       height: 399
-    m_Scale: {x: 1, y: 1}
+    m_Scale: {x: 0.46028647, y: 0.46028647}
     m_Translation: {x: 353.5, y: 199.5}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -102,12 +102,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -353.5
-      y: -199.5
-      width: 707
-      height: 399
+      x: -768
+      y: -433.42572
+      width: 1536
+      height: 866.85144
     m_MinimalGUI: 1
-  m_defaultScale: 1
+  m_defaultScale: 0.46028647
   m_LastWindowPixelSize: {x: 883.75, y: 525}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -135,10 +135,10 @@ MonoBehaviour:
     y: 0
     width: 1057
     height: 731
-  m_MinSize: {x: 402, y: 471}
-  m_MaxSize: {x: 10000, y: 14021}
+  m_MinSize: {x: 402, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 5175
+  controlID: 35007
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 5150
+  controlID: 34947
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -221,7 +221,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 16b8ffff28b9ffff34b9ffff40b9ffff4cb9ffff58b9ffff68b9ffff78b9ffff88b9ffff6cbaffff3acdffff76cdfffff6cdffff06ceffffcad1ffff1ed2ffff9ed2ffffaed2ffffbed2ffffd6d2ffff24e5ffffc8f6ffff90f8fffff6f9ffff3c400000744000009a430000
+      m_ExpandedIDs: 3066ffffe066fffff467ffffbc68ffffe669ffff8a6cffffbe70ffffda70ffffe28fffff9a90ffffc290ffffbc96ffff2898fffffa9affff309bffff329cffff88a2ffff98a3ffff66a5ffff4ea6ffff14afffff68b9ffffd4b9ffffb8baffffaabbffff72bdffff20bfffff9ecaffffa4d0ffff96d4ffffbcd4ffff22daffff8edcffffb2dcffff08ddffffb4e9ffffdceaffff0eebffff98efffff14f0ffffbef5ffffeaf5fffffcf5ffff10f6fffff8f6ffffcef9ffff2634000022430000ac430000504d0000704d0000347000005e700000f0740000707500007c750000f27d0000127e00005e80000022810000268100001e8900004e890000708900009089000060990000029e0000de9f00003eae000080ae000084ae000098ae0000d2ae000010af000026af000044af000048af000068af00006caf000072b000007eb000002cb3000056b30000beb30000d8b30000f8b3000022b400004cb5000076b500004eb6000060b60000ecb6000024b7000044b700005abf00006abf00008abf0000b6ca0000f8ca0000fcca000010cb00004acb000088cb00009ecb0000bccb0000c0cb0000e0cb0000e4cb0000eacc0000f6cc000030d100003edb000064e000003aef00006aef0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -309,9 +309,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 391.21445, y: 75.05455, z: -2303.393}
+    m_Target: {x: 1107.8457, y: 820.747, z: -246.79935}
     speed: 2
-    m_Value: {x: 391.21445, y: 75.05455, z: -2303.393}
+    m_Value: {x: 1107.8457, y: 820.747, z: -246.79935}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -361,9 +361,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 653.5218
+    m_Target: 1362.6632
     speed: 2
-    m_Value: 653.5218
+    m_Value: 1362.6632
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -486,14 +486,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\jesse\Desktop\on\onnistutaan\repairAddict
+  m_LastProjectPath: C:\Users\terop\Desktop\Jamminki\onnistutaan\repairAddict
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d4360000
-    m_LastClickedID: 14036
-    m_ExpandedIDs: 00000000c8360000ca36000000ca9a3b
+    m_SelectedIDs: 96340000
+    m_LastClickedID: 13462
+    m_ExpandedIDs: 000000008c3400008e3400009a34000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -521,7 +521,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c8360000ca36000000ca9a3b
+    m_ExpandedIDs: 000000008c3400008e3400009a34000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -546,9 +546,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: b064ffff
+    m_LastClickedInstanceID: -39760
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000096360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -665,5 +665,5 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastInspectedObjectInstanceID: -39760
+  m_LastVerticalScrollValue: 160.01439

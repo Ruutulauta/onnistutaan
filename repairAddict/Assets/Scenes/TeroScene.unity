@@ -716,8 +716,9 @@ GameObject:
   - component: {fileID: 319479760}
   - component: {fileID: 319479759}
   - component: {fileID: 319479762}
+  - component: {fileID: 319479763}
   m_Layer: 0
-  m_Name: GoalPlaceholder
+  m_Name: Tietsikka
   m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -736,18 +737,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.02764827, y: 0.011062622}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.32, y: 0.32}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 0.32, y: 0.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.32, y: 0.32}
+  m_Size: {x: 0.80660903, y: 0.6518729}
   m_EdgeRadius: 0
 --- !u!212 &319479760
 SpriteRenderer:
@@ -787,8 +788,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 93bd84685fb47f14bbdaec49f954a0cf, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 44554cb6a19754e488a02e4878b04654, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -825,8 +826,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb4a7ef4acda0054fb1de913d3f1dbcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreManager: {fileID: 0}
-  tulos: 0
+--- !u!114 &319479763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319479758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32ec83e60ae184e4b8b0d50701ca1e16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: over
 --- !u!1 &381295771
 GameObject:
   m_ObjectHideFlags: 0
@@ -861,8 +873,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 514, y: 335}
-  m_SizeDelta: {x: 34.16, y: 30}
+  m_AnchoredPosition: {x: 811.3, y: 415.7}
+  m_SizeDelta: {x: 279.5, y: 234.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &381295773
 MonoBehaviour:
@@ -884,11 +896,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
+    m_FontSize: 157
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 2
-    m_MaxSize: 96
+    m_MaxSize: 157
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1040,6 +1052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32ec83e60ae184e4b8b0d50701ca1e16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: mummoRuutu
 --- !u!1 &405279390
 GameObject:
   m_ObjectHideFlags: 0
@@ -1446,7 +1459,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 204.9, y: 157.5}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &612673075
 MonoBehaviour:
@@ -1494,8 +1507,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1954,6 +1967,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32ec83e60ae184e4b8b0d50701ca1e16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: mummoRuutu
 --- !u!1 &811387040
 GameObject:
   m_ObjectHideFlags: 0
@@ -2238,7 +2252,7 @@ Canvas:
   m_GameObject: {fileID: 869457081}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 292863595}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -2284,7 +2298,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -439, y: 327}
+  m_AnchoredPosition: {x: -855, y: 506.5}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &870683240

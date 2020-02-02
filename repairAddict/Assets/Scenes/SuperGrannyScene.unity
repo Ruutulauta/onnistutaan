@@ -503,8 +503,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 262349619}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -4.91, y: 2.09, z: 0}
-  m_LocalScale: {x: -4.41, y: 1, z: 1}
+  m_LocalPosition: {x: -4.91, y: 0.4, z: 0}
+  m_LocalScale: {x: -16.256084, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 405279391}
   m_RootOrder: 7
@@ -836,8 +836,9 @@ GameObject:
   - component: {fileID: 319479760}
   - component: {fileID: 319479759}
   - component: {fileID: 319479762}
+  - component: {fileID: 319479763}
   m_Layer: 0
-  m_Name: GoalPlaceholder
+  m_Name: Tietsikka
   m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -856,18 +857,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.02141419, y: 0.028560787}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.32, y: 0.32}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 0.32, y: 0.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.32, y: 0.32}
+  m_Size: {x: 0.791117, y: 0.74840987}
   m_EdgeRadius: 0
 --- !u!212 &319479760
 SpriteRenderer:
@@ -908,7 +909,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 93bd84685fb47f14bbdaec49f954a0cf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 44554cb6a19754e488a02e4878b04654, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -927,8 +928,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 319479758}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.95, y: -2.88, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalPosition: {x: -5.64, y: 1.99, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -945,8 +946,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb4a7ef4acda0054fb1de913d3f1dbcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreManager: {fileID: 0}
-  tulos: 0
+--- !u!114 &319479763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319479758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32ec83e60ae184e4b8b0d50701ca1e16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: loppu
 --- !u!1 &381295771
 GameObject:
   m_ObjectHideFlags: 0
@@ -981,8 +993,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 514, y: 335}
-  m_SizeDelta: {x: 34.16, y: 30}
+  m_AnchoredPosition: {x: 815.57, y: 406.1}
+  m_SizeDelta: {x: 241.01, y: 211.79}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &381295773
 MonoBehaviour:
@@ -1004,11 +1016,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
+    m_FontSize: 157
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 96
+    m_MinSize: 1
+    m_MaxSize: 300
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1160,6 +1172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32ec83e60ae184e4b8b0d50701ca1e16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: supermummoruutu
 --- !u!1 &405279390
 GameObject:
   m_ObjectHideFlags: 0
@@ -1222,7 +1235,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 412016061}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.74, y: 0.37, z: 0}
+  m_LocalPosition: {x: 2.69, y: 0.37, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 423789998}
@@ -1597,7 +1610,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 493921642}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.24, y: 0.37, z: 0}
+  m_LocalPosition: {x: 7.24, y: -1.38, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 949915785}
@@ -1796,6 +1809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32ec83e60ae184e4b8b0d50701ca1e16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: supermummoruutu
 --- !u!61 &558636403
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1962,6 +1976,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32ec83e60ae184e4b8b0d50701ca1e16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: supermummoruutu
 --- !u!61 &595114844
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2658,6 +2673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32ec83e60ae184e4b8b0d50701ca1e16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: supermummoruutu
 --- !u!1 &800058447
 GameObject:
   m_ObjectHideFlags: 0
@@ -2909,7 +2925,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 846742531}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.25, y: -0.25, z: 0}
+  m_LocalPosition: {x: -7.75, y: -0.25, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 1845801987}
@@ -3051,7 +3067,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -439, y: 327}
+  m_AnchoredPosition: {x: -852, y: 506}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &870683240
@@ -3678,6 +3694,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32ec83e60ae184e4b8b0d50701ca1e16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: supermummoruutu
 --- !u!61 &1013465607
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4395,6 +4412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32ec83e60ae184e4b8b0d50701ca1e16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: supermummoruutu
 --- !u!61 &1167075609
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4761,7 +4779,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1258292149}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.24, y: 0.37, z: 0}
+  m_LocalPosition: {x: 3.61, y: -1.38, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 846742532}
@@ -4843,6 +4861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32ec83e60ae184e4b8b0d50701ca1e16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: supermummoruutu
 --- !u!61 &1324008799
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5060,6 +5079,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32ec83e60ae184e4b8b0d50701ca1e16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: supermummoruutu
 --- !u!61 &1392840751
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5196,6 +5216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32ec83e60ae184e4b8b0d50701ca1e16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: supermummoruutu
 --- !u!61 &1404553653
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5932,6 +5953,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32ec83e60ae184e4b8b0d50701ca1e16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: supermummoruutu
 --- !u!61 &1629331047
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6611,6 +6633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32ec83e60ae184e4b8b0d50701ca1e16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: supermummoruutu
 --- !u!61 &1845801989
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6777,6 +6800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32ec83e60ae184e4b8b0d50701ca1e16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: supermummoruutu
 --- !u!61 &1963318011
 BoxCollider2D:
   m_ObjectHideFlags: 0

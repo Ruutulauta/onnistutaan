@@ -4,18 +4,20 @@ using UnityEngine;
 
 public class Goal : MonoBehaviour
 {
-    public scoreManager scoreManager;
-    public int tulos;
+    scoreManager scoreManager;
+    //private int tulos;
+    //public GameObject scoreKeeper;
 
     //public GameObject scoreHolder;
 
     void Start()
     {
-        if(tulos == null)
-        {
-            tulos = scoreManager.GetComponent<scoreManager>().score;
-        }
-        
+        //tulos = scoreKeeper.GetComponent<scoreManager>().score;
+    }
+
+    void Awake()
+    {
+        scoreManager = gameObject.GetComponent<scoreManager>();
     }
 
     /*void tarkastaTulos()
@@ -33,7 +35,7 @@ public class Goal : MonoBehaviour
         GameObject hitObj = collider.gameObject;
         if(hitObj.tag == "Player")
         {
-            Debug.Log("kerätty " + tulos);
+            //Debug.Log("");
             /*if(scoreManager.score <= 6)
             {
                 Debug.Log("kerää enemmän");
